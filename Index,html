@@ -1,100 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Caelum Club | Where Luxury Meets Legacy</title>
+  <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Inter', sans-serif;
-      background-color: #0C0C0C;
-      color: #F4F1ED;
-    }
-    header {
-      background-image: url('villa-image.jpg'); /* Replace with real image */
-      background-size: cover;
-      background-position: center;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-    }
-    .overlay {
-      background-color: rgba(12, 12, 12, 0.6);
-      padding: 40px;
-      height: 100%;
-    }
-    nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .logo {
-      font-family: 'Playfair Display', serif;
-      font-size: 2rem;
-      color: #C8AA6E;
-    }
-    .menu {
-      width: 30px;
-      height: 3px;
-      background-color: #F4F1ED;
-      position: relative;
-    }
-    .menu::before,
-    .menu::after {
-      content: '';
-      width: 30px;
-      height: 3px;
-      background-color: #F4F1ED;
-      position: absolute;
-      left: 0;
-    }
-    .menu::before {
-      top: -10px;
-    }
-    .menu::after {
-      top: 10px;
-    }
-    .hero-content {
-      text-align: center;
-      margin-top: 20vh;
-    }
-    .hero-content h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: 3rem;
-      color: #C8AA6E;
-    }
-    .hero-content p {
-      font-size: 1.2rem;
-      margin-top: 20px;
-      max-width: 600px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    .cta-button {
-      background-color: #C8AA6E;
-      color: #0C0C0C;
-      border: none;
-      padding: 12px 30px;
-      font-size: 1rem;
-      cursor: pointer;
-      margin-top: 30px;
-    }
-  </style>
 </head>
 <body>
   <header>
     <div class="overlay">
       <nav>
         <div class="logo">Caelum Club</div>
-        <div class="menu"></div>
+        <div class="menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </nav>
       <div class="hero-content">
         <h1>Where Luxury Meets Legacy</h1>
         <p>Invitation-only retreats and business experiences designed for visionary leaders, investors, and world-builders.</p>
-        <button class="cta-button">Request Access</button>
+        <a href="#membership" class="cta-button">Request Access</a>
       </div>
     </div>
   </header>
