@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #0C0C0C;
+  color: #F4F1ED;
+  overflow-x: hidden;
+}
+
+header {
+  background-image: url('villa-image.jpg'); /* Replace with actual image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(12, 12, 12, 0.6);
+  height: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  color: #C8AA6E;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.menu span {
+  width: 30px;
+  height: 3px;
+  background-color: #F4F1ED;
+  display: block;
+}
+
+.hero-content {
+  text-align: center;
+  margin-top: 20vh;
+}
+
+.hero-content h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  color: #C8AA6E;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta-button {
+  background-color: #C8AA6E;
+  color: #0C0C0C;
+  border: none;
+  padding: 12px 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 3px;
+}
